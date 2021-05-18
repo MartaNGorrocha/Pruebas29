@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+     
+    <mapping map-id="BBDD1" date-format="MM-dd-yyyy HH:mm:ss">
+        <class-a>com.marta.LectorNoticias.model.New</class-a>
+        <class-b>com.marta.LectorNoticias.model.NewDTO</class-b>
+        <field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>title</a>
+            <b>title</b>
+        </field>
+        <field>
+            <a>link</a>
+            <b>link</b>
+        </field>
+        <field>
+            <a>description</a>
+            <b>description</b>
+        </field>
+         <field>
+            <a>description</a>
+            <b>description</b>
+        </field>
+         <field>
+            <a>publicationDate</a>
+            <b>publicationDate</b>
+        </field>
+    </mapping>
+</mappings>
+
